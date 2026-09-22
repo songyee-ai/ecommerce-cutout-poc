@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+
+# 다시 돌릴 때 생기는 실험 결과. run2 는 제출 근거라 커밋한다.
+outputs/*/
+!outputs/run2/
+*.tgz

@@ -1,0 +1,25 @@
+image,backend,pass_fail,failure_reason
+e01_sneaker_black.jpg,sam,fail,한 짝만 남고 나머지 한 짝이 빠짐
+e02_sneaker_white_dark.jpg,sam,fail,중앙점이 두 짝 사이 배경에 놓여 배경이 추출됨 (상품이 지워짐)
+e03_watch_analog.jpg,sam,fail,시계 문자판만 남고 스트랩 전체가 빠짐
+e04_headphones_black.jpg,sam,fail,중앙점이 헤드밴드 아래 빈 공간에 놓여 배경이 추출됨
+e05_lotion_bottle.jpg,sam,fail,튜브 윤곽은 잡았으나 경계가 또렷하지 않음
+e06_mug_coffee.jpg,sam,fail,잔 안의 커피 표면만 남고 머그 본체가 빠짐
+e07_perfume_wood.jpg,sam,fail,병은 잡았으나 전체가 또렷하게 분리되지 않음
+h01_white_on_white_mugs.jpg,sam,fail,중앙점이 두 머그 사이 배경에 놓여 배경이 추출됨
+h02_glass_perfume.jpg,sam,fail,병 상단 일부만 추출됨
+h03_furry_teddy.jpg,sam,fail,머리 부분만 추출되고 몸통이 빠짐
+h04_thin_frame_glasses.jpg,sam,fail,중앙점이 렌즈 속 배경에 놓여 배경이 추출됨
+h05_multi_object_bags.jpg,sam,fail,중앙점이 선반 배경에 놓여 배경이 추출됨
+e01_sneaker_black.jpg,u2net,pass,
+e02_sneaker_white_dark.jpg,u2net,pass,
+e03_watch_analog.jpg,u2net,pass,
+e04_headphones_black.jpg,u2net,fail,헤드밴드가 위로 갈수록 반투명해지며 사라짐 (원본에서 배경과 대비가 약한 구간)
+e05_lotion_bottle.jpg,u2net,pass,
+e06_mug_coffee.jpg,u2net,pass,
+e07_perfume_wood.jpg,u2net,fail,나무 받침은 제거됐으나 병 아래 그림자 잔상이 남음 (R1 위반)
+h01_white_on_white_mugs.jpg,u2net,pass,
+h02_glass_perfume.jpg,u2net,fail,병 아래 반사(거울상)가 상품으로 함께 남음
+h03_furry_teddy.jpg,u2net,fail,털이 한 올씩 살지 않고 실루엣이 매끄럽게 뭉개짐
+h04_thin_frame_glasses.jpg,u2net,pass,
+h05_multi_object_bags.jpg,u2net,fail,화병·사람 손·휴대폰이 상품으로 함께 남음 (R2 위반)
