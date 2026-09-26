@@ -1,7 +1,7 @@
 {
   "images": "samples",
   "out": "outputs",
-  "backends": "birefnet-lite",
+  "backends": "sam,u2net",
   "run_id": "run2",
   "sam_model": "facebook/sam-vit-base",
   "sam_point": "center",
@@ -11,6 +11,6 @@
   "sam_stability_delta": "1.0",
   "alpha_threshold": "128",
   "edge_band": "8",
-  "max_side": "1024",
+  "max_side": "1400",
   "merge_only": "False"
 }
